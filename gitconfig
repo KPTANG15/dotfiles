@@ -38,14 +38,9 @@
   # Removes a file from the index
   unstage = reset HEAD --
 
-[help]
-  autocorrect = 1
-
-[push]
-	default = simple
-
 [branch "master"]
   mergeoptions = --no-edit
+
 [user]
-	email = tangkp@gmail.com
-	name = KP Tang
+	email = "tangkp@gmail.com"
+	name = "KP Tang"
